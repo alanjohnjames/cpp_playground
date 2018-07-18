@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(lldb) Launch (hello_world)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/hello_world.app",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "lldb"
+        },
+        {
+            "name": "(lldb) Launch (example)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/example.app",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "lldb"
+        },
+        {
+            "name": "(gdb) Launch (does not work)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/hello_world.app",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb"
+        }
+    ]
+}
