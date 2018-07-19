@@ -1,3 +1,9 @@
+//
+// Example
+//
+// Copied from Anaconda Python Site-Packages / Spyder Tests
+//
+
 #include <iostream>
 #include <vector>
 
