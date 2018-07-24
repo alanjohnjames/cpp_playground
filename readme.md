@@ -12,10 +12,12 @@ This article is also a great overview that goes into further details of settin u
 
 * https://blogs.msdn.microsoft.com/vcblog/2016/03/31/cc-extension-for-visual-studio-code/
 
+
 Configuring `c_cpp_properties.json`
 -----------------------------------
 
 * https://github.com/Microsoft/vscode-cpptools/blob/master/Documentation/LanguageServer/c_cpp_properties.json.md
+
 
 Configuring VS Code User / Workspace Settings `settings.json`
 -------------------------------------------------------------
@@ -32,6 +34,7 @@ For some reason this does not seem to be required in Mac OS.
 
 * https://github.com/Microsoft/vscode-cpptools/blob/master/Documentation/Getting%20started%20with%20IntelliSense%20configuration.md
 
+
 Compile / Link Errors on Mac OS
 -------------------------------
 
@@ -45,6 +48,7 @@ You need to compile with `g++` so that `libstdc++` is auto-linked in too.
 
 * https://stackoverflow.com/questions/8034568/undefined-symbols-for-architecture-x86-64-which-architecture-should-i-use
 
+
 Configuring `launch.json` for C/C++ debugging
 -------------------------------------------
 Once I had built the executable the VS Code debugger would not step into the source code or stop on breakpoints. 
@@ -55,6 +59,7 @@ In fact I found out that it is better to compile with `clang++` and not `g++` on
 
 * https://www.quora.com/Why-does-the-gcc-command-on-MacOS-execute-clang
 * https://github.com/Microsoft/vscode-cpptools/blob/master/launch.md
+
 
 Compile the Current File
 ------------------------
