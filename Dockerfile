@@ -7,16 +7,16 @@ RUN apt-get update && apt-get install -y cmake
 
 # Copy your files into the specified directory in the image
 # and set that as the working location
-COPY . /usr/src/myapp
-WORKDIR /usr/src/myapp
+COPY . /usr/src/cpp_playground
+WORKDIR /usr/src/cpp_playground
 
 # Create a build directory and run CMake
-RUN mkdir build && cd build && cmake ..
+# RUN mkdir build && cd build && cmake ..
 
 # Build the project with CMake
-RUN cd build && make
+# RUN cd build && make
 
 # This command runs your application, comment out this line to compile only
-CMD ["./build/cppplayground"]
+CMD ["/bin/bash"]
 
-LABEL Name=cppplayground Version=0.0.1
+LABEL Name=cpp_playground Version=0.0.1
